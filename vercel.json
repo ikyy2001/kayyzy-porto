@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "builds": [{
+        "src": "public/index.php",
+        "use": "@php-zero/php-lamp" // Atau "vercel-php@0.x.x"
+    }],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "public/index.php"
+    }],
+    "env": {
+        // ... variabel lingkungan Anda
+    }
+}
