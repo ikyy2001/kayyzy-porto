@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {{-- Bagian head lainnya (meta, title, font awesome, google fonts) --}}
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Rizki Pratama | Creative Developer</title>
@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
-
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
@@ -56,7 +55,7 @@
             <div class="hero-badge">GAME DEVELOPER</div>
             <h1 class="hero-title">MUHAMMAD<br>RIZKI<br>PRATAMA</h1>
             <div class="hero-subtitle">GAME & WEB DEVELOPER</div>
-            <p class="hero-description">Menciptakan pengalaman digital yang <span class="highlight">BOLD</span> dan <span class="highlight">FUNGSIONAL</span> dengan menggabungkan estetika brutal dan teknologi modern.</p>
+            <p class="hero-description">Menciptakan pengalaman digital yang <span class="highlight">Kreatif</span> dan <span class="highlight">Edukatif</span> dengan menggabungkan Moderenity dan Kreativitas.</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">LIHAT PROJECT</a>
                 <a href="#contact" class="btn btn-secondary">HUBUNGI SAYA</a>
@@ -89,8 +88,8 @@
             <div class="about-content">
                 <div class="about-text">
                     <p class="about-intro">SAYA ADALAH <span class="highlight">GAME & WEB DEVELOPER</span> YANG BERFOKUS PADA PENGEMBANGAN WEB DAN GAME.</p>
-                    <p>Menggunakan Roblox Studio, PHP, Laravel, dan Unity, saya menciptakan aplikasi dan game yang fungsional serta menarik. Selalu belajar dan berkembang, saya siap menghadirkan solusi inovatif dengan pendekatan yang <strong>BRUTAL</strong>                        dan
-                        <strong>EFEKTIF</strong>!</p>
+                    <p>Menggunakan Roblox Studio, PHP, Laravel, dan Unity, saya menciptakan aplikasi dan game yang fungsional serta menarik. Selalu belajar dan berkembang, saya siap menghadirkan solusi inovatif dengan pendekatan yang <strong>KREATIF</strong>                        dan
+                        <strong>EDUKATIF</strong>!</p>
                 </div>
                 <div class="skills-section">
                     <h3 class="skills-title">TECH STACK</h3>
@@ -185,13 +184,13 @@
                     <i class="fas fa-trophy"></i>
                 </div>
                 <div class="certificate-content">
-                    <h3 class="certificate-title">WEB DEVELOPMENT BOOTCAMP</h3>
-                    <p class="certificate-issuer">DICODING INDONESIA</p>
-                    <p class="certificate-date">2024</p>
+                    <h3 class="certificate-title">Mahir Membuat Website dengan Laravel</h3>
+                    <p class="certificate-issuer">CODING STUDIO</p>
+                    <p class="certificate-date">13 JUNI 2025</p>
                     <div class="certificate-skills">
-                        <span class="skill-badge">HTML5</span>
-                        <span class="skill-badge">CSS3</span>
-                        <span class="skill-badge">JAVASCRIPT</span>
+                        <span class="skill-badge">PHP</span>
+                        <span class="skill-badge">LARAVEL</span>
+                        <span class="skill-badge">HTML & CSS & JS</span>
                     </div>
                 </div>
                 <div class="certificate-status">VERIFIED</div>
@@ -202,13 +201,13 @@
                     <i class="fas fa-gamepad"></i>
                 </div>
                 <div class="certificate-content">
-                    <h3 class="certificate-title">UNITY GAME DEVELOPMENT</h3>
-                    <p class="certificate-issuer">GAMELAB INDONESIA</p>
+                    <h3 class="certificate-title"> Python Fundamenta</h3>
+                    <p class="certificate-issuer">Aguna Course</p>
                     <p class="certificate-date">2024</p>
                     <div class="certificate-skills">
-                        <span class="skill-badge">UNITY</span>
-                        <span class="skill-badge">C#</span>
-                        <span class="skill-badge">2D/3D</span>
+                        <span class="skill-badge">PYTHON</span>
+                        <span class="skill-badge">Django</span>
+                        <span class="skill-badge">Py</span>
                     </div>
                 </div>
                 <div class="certificate-status">VERIFIED</div>
@@ -220,8 +219,8 @@
                 </div>
                 <div class="certificate-content">
                     <h3 class="certificate-title">UI/UX DESIGN FUNDAMENTALS</h3>
-                    <p class="certificate-issuer">BUILDWITH ANGGA</p>
-                    <p class="certificate-date">2023</p>
+                    <p class="certificate-issuer">Coding Studio</p>
+                    <p class="certificate-date">29 OKTOBER 2024</p>
                     <div class="certificate-skills">
                         <span class="skill-badge">FIGMA</span>
                         <span class="skill-badge">DESIGN</span>
@@ -236,16 +235,16 @@
                     <i class="fas fa-server"></i>
                 </div>
                 <div class="certificate-content">
-                    <h3 class="certificate-title">BACKEND DEVELOPER</h3>
-                    <p class="certificate-issuer">DICODING INDONESIA</p>
-                    <p class="certificate-date">2023</p>
+                    <h3 class="certificate-title">Game Developer</h3>
+                    <p class="certificate-issuer">Coding Studio</p>
+                    <p class="certificate-date">Coming Soon</p>
                     <div class="certificate-skills">
-                        <span class="skill-badge">NODE.JS</span>
-                        <span class="skill-badge">API</span>
-                        <span class="skill-badge">DATABASE</span>
+                        <span class="skill-badge">Unity</span>
+                        <span class="skill-badge">C#</span>
+                        <span class="skill-badge">Game Design Document</span>
                     </div>
                 </div>
-                <div class="certificate-status">VERIFIED</div>
+                <div class="certificate-status">ONGOING</div>
             </div>
         </div>
     </section>
@@ -259,25 +258,25 @@
             <div class="gallery-item gallery-large">
                 <img src="{{ asset('image/_MG_3426.JPG') }}">
                 <div class="gallery-overlay">
-                    <span>PORTRAIT</span>
+                    <span>PENYAMBUTAN TAMU</span>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="{{ asset('image/_MG_3432.JPG') }}">
                 <div class="gallery-overlay">
-                    <span>STUDIO</span>
+                    <span>PENYAMBUTAN TAMU</span>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="{{ asset('image/_MG_5181.jpg') }}">
                 <div class="gallery-overlay">
-                    <span>OUTDOOR</span>
+                    <span>Hari Guru</span>
                 </div>
             </div>
             <div class="gallery-item gallery-tall">
                 <img src="{{ asset('image/_MG_3574.JPG') }}">
                 <div class="gallery-overlay">
-                    <span>CREATIVE</span>
+                    <span>PENYAMBUTAN TAMU</span>
                 </div>
             </div>
         </div>
@@ -312,7 +311,7 @@
                     <i class="fab fa-instagram"></i>
                     <span>INSTAGRAM</span>
                 </a>
-                <a href="#" class="social-link social-github">
+                <a href="https://github.com/ikyy2001" class="social-link social-github">
                     <i class="fab fa-github"></i>
                     <span>GITHUB</span>
                 </a>
@@ -326,7 +325,7 @@
 
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2024 MUHAMMAD RIZKI PRATAMA. ALL RIGHTS RESERVED.</p>
+            <p>&copy; 2025 MUHAMMAD RIZKI PRATAMA. ALL RIGHTS RESERVED.</p>
             <p class="footer-motto">BUILT WITH <span class="highlight">PASSION</span> & <span class="highlight">CODE</span></p>
         </div>
     </footer>
@@ -340,5 +339,3 @@
 </body>
 
 </html>
-test.html
-Menampilkan test.html.
